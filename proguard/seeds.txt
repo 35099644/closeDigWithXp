@@ -1,0 +1,3 @@
+com.mhook.dialog.MainActivity
+com.mhook.dialog.Module
+com.mhook.dialog.Module: void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam)

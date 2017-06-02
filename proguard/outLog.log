@@ -1,0 +1,7 @@
+ProGuard, version 5.2.1
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (com.aide.ui.build.packagingservice, com.tommy.xposed.aidehelper, de.robv.android.xposed, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/ext_sd/AppProjects/0xposed/对话框取消/XposedDemo/bin/classesrelease]

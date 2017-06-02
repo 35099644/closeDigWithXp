@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mhook.dialog"
+    android:versionCode="6"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+
+    <application
+		 
+		
+        android:label="对话框取消">
+		
+		<activity android:name="com.mhook.dialog.MainActivity">
+			
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="de.robv.android.xposed.category.MODULE_SETTINGS"/>
+
+			</intent-filter>
+			
+		</activity>
+     
+		<activity-alias
+			android:name="com.mhook.dialog.MainActivity-alias"
+			android:enabled="true"
+			android:targetActivity="com.mhook.dialog.MainActivity">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+		</activity-alias>
+		
+        <!--添加标识-->
+        <meta-data 
+        android:name="xposedmodule" 
+        android:value="true"/>
+        
+        <!--载入Hook模块之后显示的信息-->
+   		<meta-data
+        android:name="xposeddescription"
+        android:value="强制取消一些不能取消的对话框" />
+   		
+   		<!--规定jar包的版本信息-->
+    	<meta-data
+        android:name="xposedminversion"
+        android:value="10" />
+        
+    </application>
+
+</manifest>

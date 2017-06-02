@@ -1,0 +1,54 @@
+adrt.ADRTLogCatReader -> a.a:
+    android.content.Context context -> a
+    void <init>() -> <init>
+    void onContext(android.content.Context,java.lang.String) -> a
+    void run() -> run
+adrt.ADRTSender -> a.b:
+    android.content.Context context -> a
+    java.lang.String debuggerPackageName -> b
+    void onContext(android.content.Context,java.lang.String) -> a
+    void sendLogcatLines(java.lang.String[]) -> a
+com.mhook.dialog.MainActivity -> com.mhook.dialog.MainActivity:
+    android.app.Activity mActivity -> a
+    android.app.Activity access$L1000000(com.mhook.dialog.MainActivity) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void hia() -> a
+    void sia() -> b
+    void <init>() -> <init>
+com.mhook.dialog.MainActivity$100000000 -> com.mhook.dialog.a:
+    com.mhook.dialog.MainActivity this$0 -> a
+    android.widget.Switch val$Switch1 -> b
+    android.widget.Switch val$Switch2 -> c
+    void <init>(com.mhook.dialog.MainActivity,android.widget.Switch,android.widget.Switch) -> <init>
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.mhook.dialog.Module -> com.mhook.dialog.Module:
+    void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam) -> handleLoadPackage
+    void <init>() -> <init>
+com.mhook.dialog.Module$100000000 -> com.mhook.dialog.b:
+    com.mhook.dialog.Module this$0 -> a
+    void <init>(com.mhook.dialog.Module) -> <init>
+    void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> beforeHookedMethod
+com.mhook.dialog.Module$100000002 -> com.mhook.dialog.c:
+    com.mhook.dialog.Module this$0 -> a
+    void <init>(com.mhook.dialog.Module) -> <init>
+    void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam) -> beforeHookedMethod
+com.mhook.dialog.Module$100000002$100000001 -> com.mhook.dialog.d:
+    com.mhook.dialog.Module$100000002 this$0 -> a
+    void <init>(com.mhook.dialog.Module$100000002) -> <init>
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.mhook.dialog.Utils.SPUtils -> com.mhook.dialog.a.a:
+    java.lang.String FILE_NAME -> a
+    int MODE -> b
+    void put(android.content.Context,java.lang.String,java.lang.Object) -> a
+    java.lang.Object get(android.content.Context,java.lang.String,java.lang.Object) -> b
+    void <clinit>() -> <clinit>
+com.mhook.dialog.Utils.SPUtils$SharedPreferencesCompat -> com.mhook.dialog.a.b:
+    java.lang.reflect.Method sApplyMethod -> a
+    java.lang.reflect.Method findApplyMethod() -> a
+    void apply(android.content.SharedPreferences$Editor) -> a
+    void <clinit>() -> <clinit>
+com.mhook.dialog.Utils.T -> com.mhook.dialog.a.c:
+    android.widget.Toast toast -> a
+    boolean isShow -> b
+    void ShowToast(android.content.Context,java.lang.CharSequence) -> a
+    void <clinit>() -> <clinit>

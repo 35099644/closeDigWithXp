@@ -1,0 +1,2358 @@
+_____________________________________________________________________
++ Program class: a/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class a.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 100):
+  + String [LogCat]
+  + String [logcat -v threadtime]
+  + Class [a/a]
+  + Class [a/b]
+  + Class [android/content/Context]
+  + Class [android/content/pm/ApplicationInfo]
+  + Class [android/content/pm/PackageManager]
+  + Class [android/content/pm/PackageManager$NameNotFoundException]
+  + Class [java/io/BufferedReader]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStreamReader]
+  + Class [java/lang/Object]
+  + Class [java/lang/Process]
+  + Class [java/lang/Runnable]
+  + Class [java/lang/Runtime]
+  + Class [java/lang/String]
+  + Class [java/lang/Thread]
+  + Fieldref [a/a.a Landroid/content/Context;]
+  + Fieldref [android/content/pm/ApplicationInfo.flags I]
+  + Methodref [a/a.<init> ()V]
+  + Methodref [a/b.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [a/b.a ([Ljava/lang/String;)V]
+  + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [android/content/Context.getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+  + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+  + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;I)V]
+  + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Process.getInputStream ()Ljava/io/InputStream;]
+  + Methodref [java/lang/Runtime.exec (Ljava/lang/String;)Ljava/lang/Process;]
+  + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+  + Methodref [java/lang/Thread.<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + Methodref [java/lang/Thread.start ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/InputStream;)V]
+  + NameAndType [<init> (Ljava/io/Reader;I)V]
+  + NameAndType [<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a ([Ljava/lang/String;)V]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [exec (Ljava/lang/String;)Ljava/lang/Process;]
+  + NameAndType [flags I]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+  + NameAndType [getInputStream ()Ljava/io/InputStream;]
+  + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
+  + NameAndType [getRuntime ()Ljava/lang/Runtime;]
+  + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [start ()V]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/pm/ApplicationInfo;]
+  + Utf8 [()Landroid/content/pm/PackageManager;]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/lang/Runtime;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/io/InputStream;)V]
+  + Utf8 [(Ljava/io/Reader;I)V]
+  + Utf8 [(Ljava/lang/Runnable;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Process;]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+  + Utf8 [([Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [LogCat]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [a/b]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/pm/ApplicationInfo]
+  + Utf8 [android/content/pm/PackageManager]
+  + Utf8 [android/content/pm/PackageManager$NameNotFoundException]
+  + Utf8 [exec]
+  + Utf8 [flags]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getApplicationInfo]
+  + Utf8 [getInputStream]
+  + Utf8 [getPackageInfo]
+  + Utf8 [getPackageManager]
+  + Utf8 [getRuntime]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStreamReader]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Process]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [java/lang/Runtime]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [logcat -v threadtime]
+  + Utf8 [readLine]
+  + Utf8 [run]
+  + Utf8 [start]
+
+Fields (count = 1):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 80, locals = 2, stack = 4):
+      [0] getstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [3] ifnull +4 (target=7)
+      [6] return
+      [7] aload_0 v0
+      [8] invokevirtual #23
+        + Methodref [android/content/Context.getApplicationContext ()Landroid/content/Context;]
+      [11] putstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [14] iconst_0
+      [15] aload_0 v0
+      [16] invokevirtual #24
+        + Methodref [android/content/Context.getApplicationInfo ()Landroid/content/pm/ApplicationInfo;]
+      [19] getfield #19
+        + Fieldref [android/content/pm/ApplicationInfo.flags I]
+      [22] iconst_2
+      [23] iand
+      [24] ificmpeq +7 (target=31)
+      [27] iconst_1
+      [28] goto +4 (target=32)
+      [31] iconst_0
+      [32] ifne +4 (target=36)
+      [35] return
+      [36] aload_0 v0
+      [37] invokevirtual #25
+        + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [40] aload_1 v1
+      [41] sipush 128
+      [44] invokevirtual #26
+        + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
+      [47] pop
+      [48] goto +5 (target=53)
+      [51] pop
+      [52] return
+      [53] getstatic #18
+        + Fieldref [a/a.a Landroid/content/Context;]
+      [56] aload_1 v1
+      [57] invokestatic #21
+        + Methodref [a/b.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [60] new #17
+        + Class [java/lang/Thread]
+      [63] dup
+      [64] new #3
+        + Class [a/a]
+      [67] dup
+      [68] invokespecial #20
+        + Methodref [a/a.<init> ()V]
+      [71] ldc #1
+        + String [LogCat]
+      [73] invokespecial #34
+        + Methodref [java/lang/Thread.<init> (Ljava/lang/Runnable;Ljava/lang/String;)V]
+      [76] invokevirtual #35
+        + Methodref [java/lang/Thread.start ()V]
+      [79] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (36 -> 48: 51):
+      + Class [android/content/pm/PackageManager$NameNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x11
+      = public final void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 56, locals = 3, stack = 5):
+      [0] invokestatic #33
+        + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+      [3] ldc #2
+        + String [logcat -v threadtime]
+      [5] invokevirtual #32
+        + Methodref [java/lang/Runtime.exec (Ljava/lang/String;)Ljava/lang/Process;]
+      [8] astore_1 v1
+      [9] new #9
+        + Class [java/io/BufferedReader]
+      [12] dup
+      [13] new #11
+        + Class [java/io/InputStreamReader]
+      [16] dup
+      [17] aload_1 v1
+      [18] invokevirtual #31
+        + Methodref [java/lang/Process.getInputStream ()Ljava/io/InputStream;]
+      [21] invokespecial #29
+        + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+      [24] bipush 20
+      [26] invokespecial #27
+        + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;I)V]
+      [29] astore_1 v1
+      [30] aload_1 v1
+      [31] invokevirtual #28
+        + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [34] dup
+      [35] astore_2 v2
+      [36] ifnull +17 (target=53)
+      [39] iconst_1
+      [40] anewarray #16
+        + Class [java/lang/String]
+      [43] dup
+      [44] iconst_0
+      [45] aload_2 v2
+      [46] aastore
+      [47] invokestatic #22
+        + Methodref [a/b.a ([Ljava/lang/String;)V]
+      [50] goto -20 (target=30)
+      [53] return
+      [54] pop
+      [55] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 53: 54):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: a/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x31
+    = public final class a.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 43):
+  + String [com.adrt.LOGCAT_ENTRIES]
+  + String [lines]
+  + Class [a/b]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [java/lang/Object]
+  + Fieldref [a/b.a Landroid/content/Context;]
+  + Fieldref [a/b.b Ljava/lang/String;]
+  + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+  + Methodref [android/content/Intent.<init> ()V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.setAction (Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [sendBroadcast (Landroid/content/Intent;)V]
+  + NameAndType [setAction (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [([Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [a/b]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [b]
+  + Utf8 [com.adrt.LOGCAT_ENTRIES]
+  + Utf8 [java/lang/Object]
+  + Utf8 [lines]
+  + Utf8 [putExtra]
+  + Utf8 [sendBroadcast]
+  + Utf8 [setAction]
+  + Utf8 [setPackage]
+
+Fields (count = 2):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0xa
+      = private static android.content.Context a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String b
+
+Methods (count = 2):
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] putstatic #7
+        + Fieldref [a/b.a Landroid/content/Context;]
+      [4] aload_1 v1
+      [5] putstatic #8
+        + Fieldref [a/b.b Ljava/lang/String;]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a([Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(java.lang.String[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 2, stack = 3):
+      [0] new #5
+        + Class [android/content/Intent]
+      [3] dup
+      [4] invokespecial #10
+        + Methodref [android/content/Intent.<init> ()V]
+      [7] dup
+      [8] astore_1 v1
+      [9] getstatic #8
+        + Fieldref [a/b.b Ljava/lang/String;]
+      [12] invokevirtual #13
+        + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+      [15] pop
+      [16] aload_1 v1
+      [17] ldc #1
+        + String [com.adrt.LOGCAT_ENTRIES]
+      [19] invokevirtual #12
+        + Methodref [android/content/Intent.setAction (Ljava/lang/String;)Landroid/content/Intent;]
+      [22] pop
+      [23] aload_1 v1
+      [24] ldc #2
+        + String [lines]
+      [26] aload_0 v0
+      [27] invokevirtual #11
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
+      [30] pop
+      [31] getstatic #7
+        + Fieldref [a/b.a Landroid/content/Context;]
+      [34] aload_1 v1
+      [35] invokevirtual #9
+        + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class com.mhook.dialog.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 147):
+  + Integer [16973934]
+  + String [
+
+关于:
+
+作者: S先生.
+
+QQ: 2664487933.
+
+微信号: Larson-ainixiang.
+
+以上信息可以直接长按复制！]
+  + String [-alias]
+  + String [com.aide.ui]
+  + String [hideicon]
+  + String [moduleactivation]
+  + String [开启模块]
+  + String [隐藏图标]
+  + Class [a/a]
+  + Class [android/app/Activity]
+  + Class [android/content/ComponentName]
+  + Class [android/content/pm/PackageManager]
+  + Class [android/view/ViewGroup$LayoutParams]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/Switch]
+  + Class [android/widget/TextView]
+  + Class [com/mhook/dialog/MainActivity]
+  + Class [com/mhook/dialog/a]
+  + Class [com/mhook/dialog/a/a]
+  + Class [java/lang/Boolean]
+  + Class [java/lang/Class]
+  + Class [java/lang/StringBuffer]
+  + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+  + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/ComponentName.<init> (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [android/content/pm/PackageManager.setComponentEnabledSetting (Landroid/content/ComponentName;II)V]
+  + Methodref [android/view/ViewGroup$LayoutParams.<init> (II)V]
+  + Methodref [android/widget/LinearLayout.<init> (Landroid/content/Context;)V]
+  + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+  + Methodref [android/widget/LinearLayout.setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+  + Methodref [android/widget/LinearLayout.setOrientation (I)V]
+  + Methodref [android/widget/Switch.<init> (Landroid/content/Context;)V]
+  + Methodref [android/widget/Switch.setChecked (Z)V]
+  + Methodref [android/widget/Switch.setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+  + Methodref [android/widget/Switch.setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + Methodref [android/widget/Switch.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/TextView.<init> (Landroid/content/Context;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/TextView.setTextIsSelectable (Z)V]
+  + Methodref [com/mhook/dialog/MainActivity.a ()V]
+  + Methodref [com/mhook/dialog/MainActivity.b ()V]
+  + Methodref [com/mhook/dialog/MainActivity.getClass ()Ljava/lang/Class;]
+  + Methodref [com/mhook/dialog/MainActivity.getPackageManager ()Landroid/content/pm/PackageManager;]
+  + Methodref [com/mhook/dialog/MainActivity.setContentView (Landroid/view/View;)V]
+  + Methodref [com/mhook/dialog/MainActivity.setTheme (I)V]
+  + Methodref [com/mhook/dialog/a.<init> (Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V]
+  + Methodref [com/mhook/dialog/a/a.b (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Methodref [java/lang/Boolean.<init> (Z)V]
+  + Methodref [java/lang/Boolean.booleanValue ()Z]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuffer.<init> ()V]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (II)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [<init> (Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V]
+  + NameAndType [<init> (Z)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [addView (Landroid/view/View;)V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + NameAndType [b ()V]
+  + NameAndType [b (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [booleanValue ()Z]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setChecked (Z)V]
+  + NameAndType [setComponentEnabledSetting (Landroid/content/ComponentName;II)V]
+  + NameAndType [setContentView (Landroid/view/View;)V]
+  + NameAndType [setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+  + NameAndType [setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + NameAndType [setOrientation (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTextIsSelectable (Z)V]
+  + NameAndType [setTheme (I)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [
+
+关于:
+
+作者: S先生.
+
+QQ: 2664487933.
+
+微信号: Larson-ainixiang.
+
+以上信息可以直接长按复制！]
+  + Utf8 [()Landroid/content/pm/PackageManager;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(II)V]
+  + Utf8 [(Landroid/content/ComponentName;II)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/view/ViewGroup$LayoutParams;)V]
+  + Utf8 [(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+  + Utf8 [(Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+  + Utf8 [(Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Z)V]
+  + Utf8 [-alias]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [a]
+  + Utf8 [a/a]
+  + Utf8 [addView]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/ComponentName]
+  + Utf8 [android/content/pm/PackageManager]
+  + Utf8 [android/view/ViewGroup$LayoutParams]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/Switch]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [booleanValue]
+  + Utf8 [com.aide.ui]
+  + Utf8 [com/mhook/dialog/MainActivity]
+  + Utf8 [com/mhook/dialog/a]
+  + Utf8 [com/mhook/dialog/a/a]
+  + Utf8 [getClass]
+  + Utf8 [getName]
+  + Utf8 [getPackageManager]
+  + Utf8 [hideicon]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [moduleactivation]
+  + Utf8 [onCreate]
+  + Utf8 [setChecked]
+  + Utf8 [setComponentEnabledSetting]
+  + Utf8 [setContentView]
+  + Utf8 [setLayoutParams]
+  + Utf8 [setOnCheckedChangeListener]
+  + Utf8 [setOrientation]
+  + Utf8 [setText]
+  + Utf8 [setTextIsSelectable]
+  + Utf8 [setTheme]
+  + Utf8 [toString]
+  + Utf8 [开启模块]
+  + Utf8 [隐藏图标]
+
+Fields (count = 1):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x2
+      = private android.app.Activity a
+
+Methods (count = 5):
+  + Method:       a(Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;
+    Access flags: 0x1008
+      = static synthetic android.app.Activity a(com.mhook.dialog.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 278, locals = 5, stack = 6):
+      [0] aload_0 v0
+      [1] ldc #4
+        + String [com.aide.ui]
+      [3] invokestatic #24
+        + Methodref [a/a.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokespecial #26
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] putfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [16] aload_0 v0
+      [17] ldc #1
+        + Integer [16973934]
+      [19] invokevirtual #47
+        + Methodref [com/mhook/dialog/MainActivity.setTheme (I)V]
+      [22] aload_0 v0
+      [23] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [26] ldc #5
+        + String [hideicon]
+      [28] iconst_0
+      [29] new #20
+        + Class [java/lang/Boolean]
+      [32] dup_x1
+      [33] swap
+      [34] invokespecial #50
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [37] invokestatic #49
+        + Methodref [com/mhook/dialog/a/a.b (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+      [40] checkcast #20
+        + Class [java/lang/Boolean]
+      [43] invokevirtual #51
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [46] ifeq +10 (target=56)
+      [49] aload_0 v0
+      [50] invokevirtual #42
+        + Methodref [com/mhook/dialog/MainActivity.a ()V]
+      [53] goto +7 (target=60)
+      [56] aload_0 v0
+      [57] invokevirtual #43
+        + Methodref [com/mhook/dialog/MainActivity.b ()V]
+      [60] new #14
+        + Class [android/widget/LinearLayout]
+      [63] dup
+      [64] aload_0 v0
+      [65] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [68] invokespecial #30
+        + Methodref [android/widget/LinearLayout.<init> (Landroid/content/Context;)V]
+      [71] dup
+      [72] astore_1 v1
+      [73] new #13
+        + Class [android/view/ViewGroup$LayoutParams]
+      [76] dup
+      [77] iconst_m1
+      [78] iconst_m1
+      [79] invokespecial #29
+        + Methodref [android/view/ViewGroup$LayoutParams.<init> (II)V]
+      [82] invokevirtual #32
+        + Methodref [android/widget/LinearLayout.setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+      [85] aload_1 v1
+      [86] iconst_1
+      [87] invokevirtual #33
+        + Methodref [android/widget/LinearLayout.setOrientation (I)V]
+      [90] new #15
+        + Class [android/widget/Switch]
+      [93] dup
+      [94] aload_0 v0
+      [95] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [98] invokespecial #34
+        + Methodref [android/widget/Switch.<init> (Landroid/content/Context;)V]
+      [101] dup
+      [102] astore_2 v2
+      [103] new #13
+        + Class [android/view/ViewGroup$LayoutParams]
+      [106] dup
+      [107] iconst_m1
+      [108] bipush -2
+      [110] invokespecial #29
+        + Methodref [android/view/ViewGroup$LayoutParams.<init> (II)V]
+      [113] invokevirtual #36
+        + Methodref [android/widget/Switch.setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+      [116] aload_2 v2
+      [117] ldc #7
+        + String [开启模块]
+      [119] invokevirtual #38
+        + Methodref [android/widget/Switch.setText (Ljava/lang/CharSequence;)V]
+      [122] aload_1 v1
+      [123] aload_2 v2
+      [124] invokevirtual #31
+        + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+      [127] new #15
+        + Class [android/widget/Switch]
+      [130] dup
+      [131] aload_0 v0
+      [132] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [135] invokespecial #34
+        + Methodref [android/widget/Switch.<init> (Landroid/content/Context;)V]
+      [138] dup
+      [139] astore_3 v3
+      [140] new #13
+        + Class [android/view/ViewGroup$LayoutParams]
+      [143] dup
+      [144] iconst_m1
+      [145] bipush -2
+      [147] invokespecial #29
+        + Methodref [android/view/ViewGroup$LayoutParams.<init> (II)V]
+      [150] invokevirtual #36
+        + Methodref [android/widget/Switch.setLayoutParams (Landroid/view/ViewGroup$LayoutParams;)V]
+      [153] aload_3 v3
+      [154] ldc #8
+        + String [隐藏图标]
+      [156] invokevirtual #38
+        + Methodref [android/widget/Switch.setText (Ljava/lang/CharSequence;)V]
+      [159] aload_1 v1
+      [160] aload_3 v3
+      [161] invokevirtual #31
+        + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+      [164] new #16
+        + Class [android/widget/TextView]
+      [167] dup
+      [168] aload_0 v0
+      [169] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [172] invokespecial #39
+        + Methodref [android/widget/TextView.<init> (Landroid/content/Context;)V]
+      [175] dup
+      [176] astore v4
+      [178] ldc #2
+        + String [
+
+关于:
+
+作者: S先生.
+
+QQ: 2664487933.
+
+微信号: Larson-ainixiang.
+
+以上信息可以直接长按复制！]
+      [180] invokevirtual #40
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [183] aload v4
+      [185] iconst_1
+      [186] invokevirtual #41
+        + Methodref [android/widget/TextView.setTextIsSelectable (Z)V]
+      [189] aload_1 v1
+      [190] aload v4
+      [192] invokevirtual #31
+        + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+      [195] aload_2 v2
+      [196] aload_0 v0
+      [197] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [200] ldc #6
+        + String [moduleactivation]
+      [202] iconst_0
+      [203] new #20
+        + Class [java/lang/Boolean]
+      [206] dup_x1
+      [207] swap
+      [208] invokespecial #50
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [211] invokestatic #49
+        + Methodref [com/mhook/dialog/a/a.b (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+      [214] checkcast #20
+        + Class [java/lang/Boolean]
+      [217] invokevirtual #51
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [220] invokevirtual #35
+        + Methodref [android/widget/Switch.setChecked (Z)V]
+      [223] aload_3 v3
+      [224] aload_0 v0
+      [225] getfield #23
+        + Fieldref [com/mhook/dialog/MainActivity.a Landroid/app/Activity;]
+      [228] ldc #5
+        + String [hideicon]
+      [230] iconst_0
+      [231] new #20
+        + Class [java/lang/Boolean]
+      [234] dup_x1
+      [235] swap
+      [236] invokespecial #50
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [239] invokestatic #49
+        + Methodref [com/mhook/dialog/a/a.b (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+      [242] checkcast #20
+        + Class [java/lang/Boolean]
+      [245] invokevirtual #51
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [248] invokevirtual #35
+        + Methodref [android/widget/Switch.setChecked (Z)V]
+      [251] aload_0 v0
+      [252] aload_1 v1
+      [253] invokevirtual #46
+        + Methodref [com/mhook/dialog/MainActivity.setContentView (Landroid/view/View;)V]
+      [256] new #18
+        + Class [com/mhook/dialog/a]
+      [259] dup
+      [260] aload_0 v0
+      [261] aload_2 v2
+      [262] aload_3 v3
+      [263] invokespecial #48
+        + Methodref [com/mhook/dialog/a.<init> (Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V]
+      [266] astore_1 v1
+      [267] aload_2 v2
+      [268] aload_1 v1
+      [269] invokevirtual #37
+        + Methodref [android/widget/Switch.setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+      [272] aload_3 v3
+      [273] aload_1 v1
+      [274] invokevirtual #37
+        + Methodref [android/widget/Switch.setOnCheckedChangeListener (Landroid/widget/CompoundButton$OnCheckedChangeListener;)V]
+      [277] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x11
+      = public final void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 43, locals = 1, stack = 6):
+      [0] aload_0 v0
+      [1] invokevirtual #45
+        + Methodref [com/mhook/dialog/MainActivity.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [4] new #11
+        + Class [android/content/ComponentName]
+      [7] dup
+      [8] aload_0 v0
+      [9] new #22
+        + Class [java/lang/StringBuffer]
+      [12] dup
+      [13] invokespecial #53
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [16] aload_0 v0
+      [17] invokevirtual #44
+        + Methodref [com/mhook/dialog/MainActivity.getClass ()Ljava/lang/Class;]
+      [20] invokevirtual #52
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [23] invokevirtual #54
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [26] ldc #3
+        + String [-alias]
+      [28] invokevirtual #54
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [31] invokevirtual #55
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [34] invokespecial #27
+        + Methodref [android/content/ComponentName.<init> (Landroid/content/Context;Ljava/lang/String;)V]
+      [37] iconst_2
+      [38] iconst_1
+      [39] invokevirtual #28
+        + Methodref [android/content/pm/PackageManager.setComponentEnabledSetting (Landroid/content/ComponentName;II)V]
+      [42] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x11
+      = public final void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 43, locals = 1, stack = 6):
+      [0] aload_0 v0
+      [1] invokevirtual #45
+        + Methodref [com/mhook/dialog/MainActivity.getPackageManager ()Landroid/content/pm/PackageManager;]
+      [4] new #11
+        + Class [android/content/ComponentName]
+      [7] dup
+      [8] aload_0 v0
+      [9] new #22
+        + Class [java/lang/StringBuffer]
+      [12] dup
+      [13] invokespecial #53
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [16] aload_0 v0
+      [17] invokevirtual #44
+        + Methodref [com/mhook/dialog/MainActivity.getClass ()Ljava/lang/Class;]
+      [20] invokevirtual #52
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [23] invokevirtual #54
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [26] ldc #3
+        + String [-alias]
+      [28] invokevirtual #54
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [31] invokevirtual #55
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [34] invokespecial #27
+        + Methodref [android/content/ComponentName.<init> (Landroid/content/Context;Ljava/lang/String;)V]
+      [37] iconst_1
+      [38] iconst_1
+      [39] invokevirtual #28
+        + Methodref [android/content/pm/PackageManager.setComponentEnabledSetting (Landroid/content/ComponentName;II)V]
+      [42] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #25
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/a
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x30
+    = final class com.mhook.dialog.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/CompoundButton$OnCheckedChangeListener]
+
+Constant Pool (count = 82):
+  + String [,重启应用后生效(非重启本应用)]
+  + String [hideicon]
+  + String [moduleactivation]
+  + String [关闭]
+  + String [应用图标已]
+  + String [显示]
+  + String [模块已]
+  + String [激活]
+  + String [隐藏]
+  + Class [android/widget/CompoundButton$OnCheckedChangeListener]
+  + Class [com/mhook/dialog/MainActivity]
+  + Class [com/mhook/dialog/a]
+  + Class [com/mhook/dialog/a/a]
+  + Class [com/mhook/dialog/a/c]
+  + Class [java/lang/Boolean]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuffer]
+  + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+  + Fieldref [com/mhook/dialog/a.b Landroid/widget/Switch;]
+  + Fieldref [com/mhook/dialog/a.c Landroid/widget/Switch;]
+  + Methodref [com/mhook/dialog/MainActivity.a ()V]
+  + Methodref [com/mhook/dialog/MainActivity.a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+  + Methodref [com/mhook/dialog/MainActivity.b ()V]
+  + Methodref [com/mhook/dialog/a/a.a (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+  + Methodref [com/mhook/dialog/a/c.a (Landroid/content/Context;Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Boolean.<init> (Z)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuffer.<init> ()V]
+  + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Z)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/CharSequence;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+  + NameAndType [a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+  + NameAndType [a Lcom/mhook/dialog/MainActivity;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + NameAndType [b ()V]
+  + NameAndType [b Landroid/widget/Switch;]
+  + NameAndType [c Landroid/widget/Switch;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+  + Utf8 [(Landroid/widget/CompoundButton;Z)V]
+  + Utf8 [(Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+  + Utf8 [(Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [,重启应用后生效(非重启本应用)]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Switch;]
+  + Utf8 [Lcom/mhook/dialog/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/CompoundButton$OnCheckedChangeListener]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/mhook/dialog/MainActivity]
+  + Utf8 [com/mhook/dialog/a]
+  + Utf8 [com/mhook/dialog/a/a]
+  + Utf8 [com/mhook/dialog/a/c]
+  + Utf8 [hideicon]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [moduleactivation]
+  + Utf8 [onCheckedChanged]
+  + Utf8 [toString]
+  + Utf8 [关闭]
+  + Utf8 [应用图标已]
+  + Utf8 [显示]
+  + Utf8 [模块已]
+  + Utf8 [激活]
+  + Utf8 [隐藏]
+
+Fields (count = 3):
+  + Field:        a Lcom/mhook/dialog/MainActivity;
+    Access flags: 0x12
+      = private final com.mhook.dialog.MainActivity a
+  + Field:        b Landroid/widget/Switch;
+    Access flags: 0x12
+      = private final android.widget.Switch b
+  + Field:        c Landroid/widget/Switch;
+    Access flags: 0x12
+      = private final android.widget.Switch c
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/mhook/dialog/MainActivity;Landroid/widget/Switch;Landroid/widget/Switch;)V
+    Access flags: 0x0
+      = a(com.mhook.dialog.MainActivity,android.widget.Switch,android.widget.Switch)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #27
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #19
+        + Fieldref [com/mhook/dialog/a.b Landroid/widget/Switch;]
+      [14] aload_0 v0
+      [15] aload_3 v3
+      [16] putfield #20
+        + Fieldref [com/mhook/dialog/a.c Landroid/widget/Switch;]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCheckedChanged(Landroid/widget/CompoundButton;Z)V
+    Access flags: 0x11
+      = public final void onCheckedChanged(android.widget.CompoundButton,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 170, locals = 3, stack = 5):
+      [0] aload_1 v1
+      [1] aload_0 v0
+      [2] getfield #19
+        + Fieldref [com/mhook/dialog/a.b Landroid/widget/Switch;]
+      [5] ifacmpne +78 (target=83)
+      [8] aload_0 v0
+      [9] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [12] invokestatic #22
+        + Methodref [com/mhook/dialog/MainActivity.a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+      [15] new #17
+        + Class [java/lang/StringBuffer]
+      [18] dup
+      [19] invokespecial #28
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [22] new #17
+        + Class [java/lang/StringBuffer]
+      [25] dup
+      [26] ldc #7
+        + String [模块已]
+      [28] invokespecial #29
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [31] iload_2 v2
+      [32] ifeq +8 (target=40)
+      [35] ldc #8
+        + String [激活]
+      [37] goto +5 (target=42)
+      [40] ldc #4
+        + String [关闭]
+      [42] invokevirtual #30
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [45] invokevirtual #31
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [48] invokevirtual #30
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [51] ldc #1
+        + String [,重启应用后生效(非重启本应用)]
+      [53] invokevirtual #30
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [56] invokevirtual #31
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [59] invokestatic #25
+        + Methodref [com/mhook/dialog/a/c.a (Landroid/content/Context;Ljava/lang/CharSequence;)V]
+      [62] aload_0 v0
+      [63] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [66] invokestatic #22
+        + Methodref [com/mhook/dialog/MainActivity.a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+      [69] ldc #3
+        + String [moduleactivation]
+      [71] iload_2 v2
+      [72] new #15
+        + Class [java/lang/Boolean]
+      [75] dup_x1
+      [76] swap
+      [77] invokespecial #26
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [80] invokestatic #24
+        + Methodref [com/mhook/dialog/a/a.a (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+      [83] aload_1 v1
+      [84] aload_0 v0
+      [85] getfield #20
+        + Fieldref [com/mhook/dialog/a.c Landroid/widget/Switch;]
+      [88] ifacmpne +81 (target=169)
+      [91] aload_0 v0
+      [92] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [95] invokestatic #22
+        + Methodref [com/mhook/dialog/MainActivity.a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+      [98] new #17
+        + Class [java/lang/StringBuffer]
+      [101] dup
+      [102] ldc #5
+        + String [应用图标已]
+      [104] invokespecial #29
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [107] iload_2 v2
+      [108] ifeq +8 (target=116)
+      [111] ldc #9
+        + String [隐藏]
+      [113] goto +5 (target=118)
+      [116] ldc #6
+        + String [显示]
+      [118] invokevirtual #30
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [121] invokevirtual #31
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [124] invokestatic #25
+        + Methodref [com/mhook/dialog/a/c.a (Landroid/content/Context;Ljava/lang/CharSequence;)V]
+      [127] iload_2 v2
+      [128] ifeq +13 (target=141)
+      [131] aload_0 v0
+      [132] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [135] invokevirtual #21
+        + Methodref [com/mhook/dialog/MainActivity.a ()V]
+      [138] goto +10 (target=148)
+      [141] aload_0 v0
+      [142] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [145] invokevirtual #23
+        + Methodref [com/mhook/dialog/MainActivity.b ()V]
+      [148] aload_0 v0
+      [149] getfield #18
+        + Fieldref [com/mhook/dialog/a.a Lcom/mhook/dialog/MainActivity;]
+      [152] invokestatic #22
+        + Methodref [com/mhook/dialog/MainActivity.a (Lcom/mhook/dialog/MainActivity;)Landroid/app/Activity;]
+      [155] ldc #2
+        + String [hideicon]
+      [157] iload_2 v2
+      [158] new #15
+        + Class [java/lang/Boolean]
+      [161] dup_x1
+      [162] swap
+      [163] invokespecial #26
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [166] invokestatic #24
+        + Methodref [com/mhook/dialog/a/a.a (Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+      [169] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/Module
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x21
+    = public class com.mhook.dialog.Module extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [de/robv/android/xposed/IXposedHookLoadPackage]
+
+Constant Pool (count = 104):
+  + String [android.app.Activity]
+  + String [android.app.AlertDialog$Builder]
+  + String [android.app.Dialog]
+  + String [android.support.v7.app.AlertDialog.Builder]
+  + String [class未发现:]
+  + String [clazz存在]
+  + String [clazz未知]
+  + String [com.mhook.dialog]
+  + String [log_2]
+  + String [moduleactivation]
+  + String [setCancelable]
+  + String [setCanceledOnTouchOutside]
+  + String [setFinishOnTouchOutside]
+  + String [setOnCancelListener]
+  + String [share_data]
+  + String [对话框取消已激活]
+  + Class [android/util/Log]
+  + Class [com/mhook/dialog/Module]
+  + Class [com/mhook/dialog/b]
+  + Class [com/mhook/dialog/c]
+  + Class [de/robv/android/xposed/IXposedHookLoadPackage]
+  + Class [de/robv/android/xposed/XSharedPreferences]
+  + Class [de/robv/android/xposed/XposedBridge]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/NoClassDefFoundError]
+  + Class [java/lang/Object]
+  + Class [java/lang/StringBuffer]
+  + Class [java/lang/Throwable]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [com/mhook/dialog/b.<init> (Lcom/mhook/dialog/Module;)V]
+  + Methodref [com/mhook/dialog/c.<init> (Lcom/mhook/dialog/Module;)V]
+  + Methodref [de/robv/android/xposed/XSharedPreferences.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [de/robv/android/xposed/XSharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+  + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/Object;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/mhook/dialog/Module;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuffer;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [getBoolean (Ljava/lang/String;Z)Z]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + NameAndType [hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Lcom/mhook/dialog/Module;)V]
+  + Utf8 [(Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;)V]
+  + Utf8 [(Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Z)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android.app.Activity]
+  + Utf8 [android.app.AlertDialog$Builder]
+  + Utf8 [android.app.Dialog]
+  + Utf8 [android.support.v7.app.AlertDialog.Builder]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [class未发现:]
+  + Utf8 [clazz存在]
+  + Utf8 [clazz未知]
+  + Utf8 [com.mhook.dialog]
+  + Utf8 [com/mhook/dialog/Module]
+  + Utf8 [com/mhook/dialog/b]
+  + Utf8 [com/mhook/dialog/c]
+  + Utf8 [d]
+  + Utf8 [de/robv/android/xposed/IXposedHookLoadPackage]
+  + Utf8 [de/robv/android/xposed/XSharedPreferences]
+  + Utf8 [de/robv/android/xposed/XposedBridge]
+  + Utf8 [forName]
+  + Utf8 [getBoolean]
+  + Utf8 [getMessage]
+  + Utf8 [handleLoadPackage]
+  + Utf8 [hookAllMethods]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/NoClassDefFoundError]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [log_2]
+  + Utf8 [moduleactivation]
+  + Utf8 [setCancelable]
+  + Utf8 [setCanceledOnTouchOutside]
+  + Utf8 [setFinishOnTouchOutside]
+  + Utf8 [setOnCancelListener]
+  + Utf8 [share_data]
+  + Utf8 [toString]
+  + Utf8 [对话框取消已激活]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  + Method:       handleLoadPackage(Lde/robv/android/xposed/callbacks/XC_LoadPackage$LoadPackageParam;)V
+    Access flags: 0x1
+      = public void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 293, locals = 5, stack = 4):
+      [0] new #22
+        + Class [de/robv/android/xposed/XSharedPreferences]
+      [3] dup
+      [4] ldc #8
+        + String [com.mhook.dialog]
+      [6] ldc #15
+        + String [share_data]
+      [8] invokespecial #33
+        + Methodref [de/robv/android/xposed/XSharedPreferences.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [11] ldc #10
+        + String [moduleactivation]
+      [13] iconst_0
+      [14] invokevirtual #34
+        + Methodref [de/robv/android/xposed/XSharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+      [17] ifne +4 (target=21)
+      [20] return
+      [21] new #19
+        + Class [com/mhook/dialog/b]
+      [24] dup
+      [25] aload_0 v0
+      [26] invokespecial #31
+        + Methodref [com/mhook/dialog/b.<init> (Lcom/mhook/dialog/Module;)V]
+      [29] astore_1 v1
+      [30] new #20
+        + Class [com/mhook/dialog/c]
+      [33] dup
+      [34] aload_0 v0
+      [35] invokespecial #32
+        + Methodref [com/mhook/dialog/c.<init> (Lcom/mhook/dialog/Module;)V]
+      [38] astore_2 v2
+      [39] ldc #9
+        + String [log_2]
+      [41] ldc #16
+        + String [对话框取消已激活]
+      [43] invokestatic #30
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [46] pop
+      [47] aconst_null
+      [48] astore_3 v3
+      [49] ldc #4
+        + String [android.support.v7.app.AlertDialog.Builder]
+      [51] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [54] astore_3 v3
+      [55] goto +28 (target=83)
+      [58] astore v4
+      [60] ldc #9
+        + String [log_2]
+      [62] new #28
+        + Class [java/lang/StringBuffer]
+      [65] dup
+      [66] ldc #5
+        + String [class未发现:]
+      [68] invokespecial #39
+        + Methodref [java/lang/StringBuffer.<init> (Ljava/lang/String;)V]
+      [71] aload v4
+      [73] invokevirtual #40
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/Object;)Ljava/lang/StringBuffer;]
+      [76] invokevirtual #41
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [79] invokestatic #30
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [82] pop
+      [83] aload_3 v3
+      [84] ifnull +30 (target=114)
+      [87] ldc #9
+        + String [log_2]
+      [89] ldc #6
+        + String [clazz存在]
+      [91] invokestatic #30
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [94] pop
+      [95] aload_3 v3
+      [96] ldc #11
+        + String [setCancelable]
+      [98] aload_1 v1
+      [99] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [102] pop
+      [103] aload_3 v3
+      [104] ldc #14
+        + String [setOnCancelListener]
+      [106] aload_2 v2
+      [107] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [110] pop
+      [111] goto +11 (target=122)
+      [114] ldc #9
+        + String [log_2]
+      [116] ldc #7
+        + String [clazz未知]
+      [118] invokestatic #30
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [121] pop
+      [122] ldc #3
+        + String [android.app.Dialog]
+      [124] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [127] goto +18 (target=145)
+      [130] astore v4
+      [132] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [135] dup
+      [136] aload v4
+      [138] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [141] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [144] athrow
+      [145] ldc #11
+        + String [setCancelable]
+      [147] aload_1 v1
+      [148] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [151] pop
+      [152] ldc #3
+        + String [android.app.Dialog]
+      [154] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [157] goto +16 (target=173)
+      [160] astore_1 v1
+      [161] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [164] dup
+      [165] aload_1 v1
+      [166] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [169] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [172] athrow
+      [173] ldc #12
+        + String [setCanceledOnTouchOutside]
+      [175] aload_1 v1
+      [176] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [179] pop
+      [180] ldc #2
+        + String [android.app.AlertDialog$Builder]
+      [182] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [185] goto +16 (target=201)
+      [188] astore_1 v1
+      [189] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [192] dup
+      [193] aload_1 v1
+      [194] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [197] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [200] athrow
+      [201] ldc #11
+        + String [setCancelable]
+      [203] aload_1 v1
+      [204] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [207] pop
+      [208] ldc #1
+        + String [android.app.Activity]
+      [210] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [213] goto +16 (target=229)
+      [216] astore_1 v1
+      [217] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [220] dup
+      [221] aload_1 v1
+      [222] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [225] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [228] athrow
+      [229] ldc #13
+        + String [setFinishOnTouchOutside]
+      [231] aload_1 v1
+      [232] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [235] pop
+      [236] ldc #2
+        + String [android.app.AlertDialog$Builder]
+      [238] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [241] goto +16 (target=257)
+      [244] astore_1 v1
+      [245] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [248] dup
+      [249] aload_1 v1
+      [250] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [253] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [256] athrow
+      [257] ldc #14
+        + String [setOnCancelListener]
+      [259] aload_2 v2
+      [260] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [263] pop
+      [264] ldc #3
+        + String [android.app.Dialog]
+      [266] invokestatic #36
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [269] goto +16 (target=285)
+      [272] astore_1 v1
+      [273] new #26
+        + Class [java/lang/NoClassDefFoundError]
+      [276] dup
+      [277] aload_1 v1
+      [278] invokevirtual #42
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [281] invokespecial #37
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [284] athrow
+      [285] ldc #14
+        + String [setOnCancelListener]
+      [287] aload_2 v2
+      [288] invokestatic #35
+        + Methodref [de/robv/android/xposed/XposedBridge.hookAllMethods (Ljava/lang/Class;Ljava/lang/String;Lde/robv/android/xposed/XC_MethodHook;)Ljava/util/Set;]
+      [291] pop
+      [292] return
+      Code attribute exceptions (count = 7):
+      - ExceptionInfo (49 -> 55: 58):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (122 -> 127: 130):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (152 -> 157: 160):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (180 -> 185: 188):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (208 -> 213: 216):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (236 -> 241: 244):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (264 -> 269: 272):
+      + Class [java/lang/ClassNotFoundException]
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Module()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #38
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/b
+  Superclass:    de/robv/android/xposed/XC_MethodHook
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x30
+    = final class com.mhook.dialog.b extends de.robv.android.xposed.XC_MethodHook
+
+Interfaces (count = 0):
+
+Constant Pool (count = 38):
+  + String [log_2]
+  + String [对话框已被设置为能取消]
+  + Class [android/util/Log]
+  + Class [com/mhook/dialog/b]
+  + Class [de/robv/android/xposed/XC_MethodHook]
+  + Class [de/robv/android/xposed/XC_MethodHook$MethodHookParam]
+  + Class [java/lang/Boolean]
+  + Fieldref [com/mhook/dialog/b.a Lcom/mhook/dialog/Module;]
+  + Fieldref [de/robv/android/xposed/XC_MethodHook$MethodHookParam.args [Ljava/lang/Object;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [de/robv/android/xposed/XC_MethodHook.<init> ()V]
+  + Methodref [java/lang/Boolean.<init> (Z)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Z)V]
+  + NameAndType [a Lcom/mhook/dialog/Module;]
+  + NameAndType [args [Ljava/lang/Object;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [()V]
+  + Utf8 [(Lcom/mhook/dialog/Module;)V]
+  + Utf8 [(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/mhook/dialog/Module;]
+  + Utf8 [[Ljava/lang/Object;]
+  + Utf8 [a]
+  + Utf8 [android/util/Log]
+  + Utf8 [args]
+  + Utf8 [beforeHookedMethod]
+  + Utf8 [com/mhook/dialog/b]
+  + Utf8 [d]
+  + Utf8 [de/robv/android/xposed/XC_MethodHook]
+  + Utf8 [de/robv/android/xposed/XC_MethodHook$MethodHookParam]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [log_2]
+  + Utf8 [对话框已被设置为能取消]
+
+Fields (count = 1):
+  + Field:        a Lcom/mhook/dialog/Module;
+    Access flags: 0x12
+      = private final com.mhook.dialog.Module a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/mhook/dialog/Module;)V
+    Access flags: 0x0
+      = b(com.mhook.dialog.Module)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #11
+        + Methodref [de/robv/android/xposed/XC_MethodHook.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #8
+        + Fieldref [com/mhook/dialog/b.a Lcom/mhook/dialog/Module;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
+    Access flags: 0x14
+      = protected final void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 2, stack = 5):
+      [0] ldc #1
+        + String [log_2]
+      [2] ldc #2
+        + String [对话框已被设置为能取消]
+      [4] invokestatic #10
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_1 v1
+      [9] getfield #9
+        + Fieldref [de/robv/android/xposed/XC_MethodHook$MethodHookParam.args [Ljava/lang/Object;]
+      [12] iconst_0
+      [13] iconst_1
+      [14] new #7
+        + Class [java/lang/Boolean]
+      [17] dup_x1
+      [18] swap
+      [19] invokespecial #12
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [22] aastore
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/c
+  Superclass:    de/robv/android/xposed/XC_MethodHook
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x30
+    = final class com.mhook.dialog.c extends de.robv.android.xposed.XC_MethodHook
+
+Interfaces (count = 0):
+
+Constant Pool (count = 42):
+  + String [log_2]
+  + String [参数是匹配]
+  + String [获取取消函数完毕]
+  + Class [android/content/DialogInterface$OnCancelListener]
+  + Class [android/util/Log]
+  + Class [com/mhook/dialog/c]
+  + Class [com/mhook/dialog/d]
+  + Class [de/robv/android/xposed/XC_MethodHook]
+  + Class [de/robv/android/xposed/XC_MethodHook$MethodHookParam]
+  + Fieldref [com/mhook/dialog/c.a Lcom/mhook/dialog/Module;]
+  + Fieldref [de/robv/android/xposed/XC_MethodHook$MethodHookParam.args [Ljava/lang/Object;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [com/mhook/dialog/d.<init> (Lcom/mhook/dialog/c;)V]
+  + Methodref [de/robv/android/xposed/XC_MethodHook.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/mhook/dialog/c;)V]
+  + NameAndType [a Lcom/mhook/dialog/Module;]
+  + NameAndType [args [Ljava/lang/Object;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [()V]
+  + Utf8 [(Lcom/mhook/dialog/Module;)V]
+  + Utf8 [(Lcom/mhook/dialog/c;)V]
+  + Utf8 [(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/mhook/dialog/Module;]
+  + Utf8 [[Ljava/lang/Object;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnCancelListener]
+  + Utf8 [android/util/Log]
+  + Utf8 [args]
+  + Utf8 [beforeHookedMethod]
+  + Utf8 [com/mhook/dialog/c]
+  + Utf8 [com/mhook/dialog/d]
+  + Utf8 [d]
+  + Utf8 [de/robv/android/xposed/XC_MethodHook]
+  + Utf8 [de/robv/android/xposed/XC_MethodHook$MethodHookParam]
+  + Utf8 [log_2]
+  + Utf8 [参数是匹配]
+  + Utf8 [获取取消函数完毕]
+
+Fields (count = 1):
+  + Field:        a Lcom/mhook/dialog/Module;
+    Access flags: 0x12
+      = private final com.mhook.dialog.Module a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/mhook/dialog/Module;)V
+    Access flags: 0x0
+      = c(com.mhook.dialog.Module)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #14
+        + Methodref [de/robv/android/xposed/XC_MethodHook.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #10
+        + Fieldref [com/mhook/dialog/c.a Lcom/mhook/dialog/Module;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       beforeHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
+    Access flags: 0x11
+      = public final void beforeHookedMethod(de.robv.android.xposed.XC_MethodHook$MethodHookParam)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 45, locals = 3, stack = 3):
+      [0] ldc #1
+        + String [log_2]
+      [2] ldc #3
+        + String [获取取消函数完毕]
+      [4] invokestatic #12
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_1 v1
+      [9] getfield #11
+        + Fieldref [de/robv/android/xposed/XC_MethodHook$MethodHookParam.args [Ljava/lang/Object;]
+      [12] iconst_0
+      [13] aaload
+      [14] instanceof #4
+        + Class [android/content/DialogInterface$OnCancelListener]
+      [17] ifeq +27 (target=44)
+      [20] ldc #1
+        + String [log_2]
+      [22] ldc #2
+        + String [参数是匹配]
+      [24] invokestatic #12
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [27] pop
+      [28] new #7
+        + Class [com/mhook/dialog/d]
+      [31] dup
+      [32] aload_0 v0
+      [33] invokespecial #13
+        + Methodref [com/mhook/dialog/d.<init> (Lcom/mhook/dialog/c;)V]
+      [36] astore_2 v2
+      [37] aload_1 v1
+      [38] getfield #11
+        + Fieldref [de/robv/android/xposed/XC_MethodHook$MethodHookParam.args [Ljava/lang/Object;]
+      [41] iconst_0
+      [42] aload_2 v2
+      [43] aastore
+      [44] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/d
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x30
+    = final class com.mhook.dialog.d extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnCancelListener]
+
+Constant Pool (count = 29):
+  + String [log_2]
+  + String [对话框替换成功]
+  + Class [android/content/DialogInterface$OnCancelListener]
+  + Class [android/util/Log]
+  + Class [com/mhook/dialog/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/mhook/dialog/d.a Lcom/mhook/dialog/c;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/mhook/dialog/c;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;)V]
+  + Utf8 [(Lcom/mhook/dialog/c;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/mhook/dialog/c;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnCancelListener]
+  + Utf8 [android/util/Log]
+  + Utf8 [com/mhook/dialog/d]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [log_2]
+  + Utf8 [onCancel]
+  + Utf8 [对话框替换成功]
+
+Fields (count = 1):
+  + Field:        a Lcom/mhook/dialog/c;
+    Access flags: 0x12
+      = private final com.mhook.dialog.c a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/mhook/dialog/c;)V
+    Access flags: 0x0
+      = d(com.mhook.dialog.c)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #7
+        + Fieldref [com/mhook/dialog/d.a Lcom/mhook/dialog/c;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCancel(Landroid/content/DialogInterface;)V
+    Access flags: 0x11
+      = public final void onCancel(android.content.DialogInterface)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] ldc #1
+        + String [log_2]
+      [2] ldc #2
+        + String [对话框替换成功]
+      [4] invokestatic #8
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/a/a
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x31
+    = public final class com.mhook.dialog.a.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 84):
+  + String [share_data]
+  + Class [android/content/Context]
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/SharedPreferences$Editor]
+  + Class [com/mhook/dialog/a/a]
+  + Class [com/mhook/dialog/a/b]
+  + Class [java/lang/Boolean]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Fieldref [com/mhook/dialog/a/a.a Ljava/lang/String;]
+  + Fieldref [com/mhook/dialog/a/a.b I]
+  + Methodref [android/content/Context.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Methodref [com/mhook/dialog/a/b.a (Landroid/content/SharedPreferences$Editor;)V]
+  + Methodref [java/lang/Boolean.<init> (Z)V]
+  + Methodref [java/lang/Boolean.booleanValue ()Z]
+  + Methodref [java/lang/Integer.<init> (I)V]
+  + Methodref [java/lang/Integer.intValue ()I]
+  + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+  + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putInt (Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Z)V]
+  + NameAndType [a (Landroid/content/SharedPreferences$Editor;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b I]
+  + NameAndType [booleanValue ()Z]
+  + NameAndType [edit ()Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [getBoolean (Ljava/lang/String;Z)Z]
+  + NameAndType [getInt (Ljava/lang/String;I)I]
+  + NameAndType [getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [intValue ()I]
+  + NameAndType [putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [putInt (Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V]
+  + Utf8 [(Landroid/content/SharedPreferences$Editor;)V]
+  + Utf8 [(Ljava/lang/String;I)I]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [(Ljava/lang/String;Z)Z]
+  + Utf8 [(Z)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [b]
+  + Utf8 [booleanValue]
+  + Utf8 [com/mhook/dialog/a/a]
+  + Utf8 [com/mhook/dialog/a/b]
+  + Utf8 [edit]
+  + Utf8 [getBoolean]
+  + Utf8 [getInt]
+  + Utf8 [getSharedPreferences]
+  + Utf8 [getString]
+  + Utf8 [intValue]
+  + Utf8 [java/lang/Boolean]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [putBoolean]
+  + Utf8 [putInt]
+  + Utf8 [putString]
+  + Utf8 [share_data]
+
+Fields (count = 2):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a
+  + Field:        b I
+    Access flags: 0x9
+      = public static int b
+
+Methods (count = 3):
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 83, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getstatic #11
+        + Fieldref [com/mhook/dialog/a/a.a Ljava/lang/String;]
+      [4] getstatic #12
+        + Fieldref [com/mhook/dialog/a/a.b I]
+      [7] invokevirtual #13
+        + Methodref [android/content/Context.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [10] invokeinterface #19, 256
+        + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+      [15] astore_0 v0
+      [16] aload_2 v2
+      [17] instanceof #10
+        + Class [java/lang/String]
+      [20] ifeq +18 (target=38)
+      [23] aload_0 v0
+      [24] aload_1 v1
+      [25] aload_2 v2
+      [26] checkcast #10
+        + Class [java/lang/String]
+      [29] invokeinterface #25, 768
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
+      [34] pop
+      [35] goto +43 (target=78)
+      [38] aload_2 v2
+      [39] instanceof #8
+        + Class [java/lang/Integer]
+      [42] ifeq +21 (target=63)
+      [45] aload_0 v0
+      [46] aload_1 v1
+      [47] aload_2 v2
+      [48] checkcast #8
+        + Class [java/lang/Integer]
+      [51] invokevirtual #18
+        + Methodref [java/lang/Integer.intValue ()I]
+      [54] invokeinterface #24, 768
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putInt (Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
+      [59] pop
+      [60] goto +18 (target=78)
+      [63] aload_0 v0
+      [64] aload_1 v1
+      [65] aload_2 v2
+      [66] checkcast #7
+        + Class [java/lang/Boolean]
+      [69] invokevirtual #16
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [72] invokeinterface #23, 768
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+      [77] pop
+      [78] aload_0 v0
+      [79] invokestatic #14
+        + Methodref [com/mhook/dialog/a/b.a (Landroid/content/SharedPreferences$Editor;)V]
+      [82] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    Access flags: 0x9
+      = public static java.lang.Object b(android.content.Context,java.lang.String,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 83, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getstatic #11
+        + Fieldref [com/mhook/dialog/a/a.a Ljava/lang/String;]
+      [4] getstatic #12
+        + Fieldref [com/mhook/dialog/a/a.b I]
+      [7] invokevirtual #13
+        + Methodref [android/content/Context.getSharedPreferences (Ljava/lang/String;I)Landroid/content/SharedPreferences;]
+      [10] astore_0 v0
+      [11] aload_2 v2
+      [12] instanceof #10
+        + Class [java/lang/String]
+      [15] ifeq +15 (target=30)
+      [18] aload_0 v0
+      [19] aload_1 v1
+      [20] aload_2 v2
+      [21] checkcast #10
+        + Class [java/lang/String]
+      [24] invokeinterface #22, 768
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [29] areturn
+      [30] aload_2 v2
+      [31] instanceof #8
+        + Class [java/lang/Integer]
+      [34] ifeq +26 (target=60)
+      [37] aload_0 v0
+      [38] aload_1 v1
+      [39] aload_2 v2
+      [40] checkcast #8
+        + Class [java/lang/Integer]
+      [43] invokevirtual #18
+        + Methodref [java/lang/Integer.intValue ()I]
+      [46] invokeinterface #21, 768
+        + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
+      [51] new #8
+        + Class [java/lang/Integer]
+      [54] dup_x1
+      [55] swap
+      [56] invokespecial #17
+        + Methodref [java/lang/Integer.<init> (I)V]
+      [59] areturn
+      [60] aload_0 v0
+      [61] aload_1 v1
+      [62] aload_2 v2
+      [63] checkcast #7
+        + Class [java/lang/Boolean]
+      [66] invokevirtual #16
+        + Methodref [java/lang/Boolean.booleanValue ()Z]
+      [69] invokeinterface #20, 768
+        + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+      [74] new #7
+        + Class [java/lang/Boolean]
+      [77] dup_x1
+      [78] swap
+      [79] invokespecial #15
+        + Methodref [java/lang/Boolean.<init> (Z)V]
+      [82] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x18
+      = static final void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 0, stack = 1):
+      [0] ldc #1
+        + String [share_data]
+      [2] putstatic #11
+        + Fieldref [com/mhook/dialog/a/a.a Ljava/lang/String;]
+      [5] iconst_3
+      [6] putstatic #12
+        + Fieldref [com/mhook/dialog/a/a.b I]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/a/b
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x30
+    = final class com.mhook.dialog.a.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 64):
+  + String [android.content.SharedPreferences$Editor]
+  + String [apply]
+  + Class [android/content/SharedPreferences$Editor]
+  + Class [com/mhook/dialog/a/b]
+  + Class [java/lang/Class]
+  + Class [java/lang/ClassNotFoundException]
+  + Class [java/lang/IllegalAccessException]
+  + Class [java/lang/IllegalArgumentException]
+  + Class [java/lang/NoClassDefFoundError]
+  + Class [java/lang/NoSuchMethodException]
+  + Class [java/lang/Object]
+  + Class [java/lang/Throwable]
+  + Class [java/lang/reflect/InvocationTargetException]
+  + Class [java/lang/reflect/Method]
+  + Fieldref [com/mhook/dialog/a/b.a Ljava/lang/reflect/Method;]
+  + Methodref [com/mhook/dialog/a/b.a ()Ljava/lang/reflect/Method;]
+  + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+  + Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a ()Ljava/lang/reflect/Method;]
+  + NameAndType [a Ljava/lang/reflect/Method;]
+  + NameAndType [commit ()Z]
+  + NameAndType [forName (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + NameAndType [getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + NameAndType [invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/reflect/Method;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Landroid/content/SharedPreferences$Editor;)V]
+  + Utf8 [(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/reflect/Method;]
+  + Utf8 [a]
+  + Utf8 [android.content.SharedPreferences$Editor]
+  + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [apply]
+  + Utf8 [com/mhook/dialog/a/b]
+  + Utf8 [commit]
+  + Utf8 [forName]
+  + Utf8 [getMessage]
+  + Utf8 [getMethod]
+  + Utf8 [invoke]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/IllegalAccessException]
+  + Utf8 [java/lang/IllegalArgumentException]
+  + Utf8 [java/lang/NoClassDefFoundError]
+  + Utf8 [java/lang/NoSuchMethodException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/lang/reflect/InvocationTargetException]
+  + Utf8 [java/lang/reflect/Method]
+
+Fields (count = 1):
+  + Field:        a Ljava/lang/reflect/Method;
+    Access flags: 0x1a
+      = private static final java.lang.reflect.Method a
+
+Methods (count = 3):
+  + Method:       a()Ljava/lang/reflect/Method;
+    Access flags: 0xa
+      = private static java.lang.reflect.Method a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 1, stack = 3):
+      [0] ldc #1
+        + String [android.content.SharedPreferences$Editor]
+      [2] invokestatic #17
+        + Methodref [java/lang/Class.forName (Ljava/lang/String;)Ljava/lang/Class;]
+      [5] goto +16 (target=21)
+      [8] astore_0 v0
+      [9] new #9
+        + Class [java/lang/NoClassDefFoundError]
+      [12] dup
+      [13] aload_0 v0
+      [14] invokevirtual #20
+        + Methodref [java/lang/Throwable.getMessage ()Ljava/lang/String;]
+      [17] invokespecial #19
+        + Methodref [java/lang/NoClassDefFoundError.<init> (Ljava/lang/String;)V]
+      [20] athrow
+      [21] ldc #2
+        + String [apply]
+      [23] iconst_0
+      [24] anewarray #5
+        + Class [java/lang/Class]
+      [27] invokevirtual #18
+        + Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+      [30] areturn
+      [31] pop
+      [32] aconst_null
+      [33] areturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 5: 8):
+      + Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (0 -> 31: 31):
+      + Class [java/lang/NoSuchMethodException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/SharedPreferences$Editor;)V
+    Access flags: 0x9
+      = public static void a(android.content.SharedPreferences$Editor)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 1, stack = 3):
+      [0] getstatic #15
+        + Fieldref [com/mhook/dialog/a/b.a Ljava/lang/reflect/Method;]
+      [3] ifnull +16 (target=19)
+      [6] getstatic #15
+        + Fieldref [com/mhook/dialog/a/b.a Ljava/lang/reflect/Method;]
+      [9] aload_0 v0
+      [10] iconst_0
+      [11] anewarray #11
+        + Class [java/lang/Object]
+      [14] invokevirtual #21
+        + Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+      [17] pop
+      [18] return
+      [19] goto +12 (target=31)
+      [22] pop
+      [23] goto +8 (target=31)
+      [26] pop
+      [27] goto +4 (target=31)
+      [30] pop
+      [31] aload_0 v0
+      [32] invokeinterface #22, 256
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+      [37] pop
+      [38] return
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (0 -> 19: 22):
+      + Class [java/lang/IllegalArgumentException]
+      - ExceptionInfo (0 -> 19: 26):
+      + Class [java/lang/IllegalAccessException]
+      - ExceptionInfo (0 -> 19: 30):
+      + Class [java/lang/reflect/InvocationTargetException]
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x18
+      = static final void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 0, stack = 1):
+      [0] invokestatic #16
+        + Methodref [com/mhook/dialog/a/b.a ()Ljava/lang/reflect/Method;]
+      [3] putstatic #15
+        + Fieldref [com/mhook/dialog/a/b.a Ljava/lang/reflect/Method;]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/mhook/dialog/a/c
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
+    = target 1.5
+  Access flags:  0x31
+    = public final class com.mhook.dialog.a.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 39):
+  + String []
+  + Class [android/widget/Toast]
+  + Class [com/mhook/dialog/a/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+  + Fieldref [com/mhook/dialog/a/c.b Z]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [java/lang/Object.equals (Ljava/lang/Object;)Z]
+  + NameAndType [a Landroid/widget/Toast;]
+  + NameAndType [b Z]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [show ()V]
+  + Utf8 []
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;II)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [<clinit>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Toast;]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [b]
+  + Utf8 [com/mhook/dialog/a/c]
+  + Utf8 [equals]
+  + Utf8 [java/lang/Object]
+  + Utf8 [makeText]
+  + Utf8 [setText]
+  + Utf8 [show]
+
+Fields (count = 2):
+  + Field:        a Landroid/widget/Toast;
+    Access flags: 0x8
+      = static android.widget.Toast a
+  + Field:        b Z
+    Access flags: 0x9
+      = public static boolean b
+
+Methods (count = 2):
+  + Method:       a(Landroid/content/Context;Ljava/lang/CharSequence;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.CharSequence)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 63, locals = 2, stack = 3):
+      [0] getstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [3] ifnonnull +46 (target=49)
+      [6] aload_1 v1
+      [7] ldc #1
+        + String []
+      [9] invokevirtual #11
+        + Methodref [java/lang/Object.equals (Ljava/lang/Object;)Z]
+      [12] aload_1 v1
+      [13] ifnull +7 (target=20)
+      [16] iconst_0
+      [17] goto +4 (target=21)
+      [20] iconst_1
+      [21] ior
+      [22] ifeq +15 (target=37)
+      [25] aload_0 v0
+      [26] iconst_0
+      [27] iconst_1
+      [28] invokestatic #7
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;II)Landroid/widget/Toast;]
+      [31] putstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [34] goto +22 (target=56)
+      [37] aload_0 v0
+      [38] aload_1 v1
+      [39] iconst_1
+      [40] invokestatic #8
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [43] putstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [46] goto +10 (target=56)
+      [49] getstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [52] aload_1 v1
+      [53] invokevirtual #9
+        + Methodref [android/widget/Toast.setText (Ljava/lang/CharSequence;)V]
+      [56] getstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [59] invokevirtual #10
+        + Methodref [android/widget/Toast.show ()V]
+      [62] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x18
+      = static final void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 0, stack = 1):
+      [0] aconst_null
+      [1] putstatic #5
+        + Fieldref [com/mhook/dialog/a/c.a Landroid/widget/Toast;]
+      [4] iconst_0
+      [5] putstatic #6
+        + Fieldref [com/mhook/dialog/a/c.b Z]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
