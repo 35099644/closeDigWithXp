@@ -6,39 +6,119 @@ import java.util.Map;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.IInterface;
 
 public class SPUtils
 {
-	public SPUtils()
+	public SPUtils(Context con)
 	{
 		
-		FILE_NAME ="share_data";
-		
+		context=con;
+
+		FILE_NAME ="digXposed";
+
 		MODE=Context.MODE_WORLD_READABLE|Context.MODE_WORLD_WRITEABLE;
-		
+
 	}
 
 	/**
 	 * 保存在手机里面的文件名
 	 */
-	public static  String FILE_NAME ="share_data";
+	 
+	private static Context context;
+	 
+	public static  String FILE_NAME ="digXposed";
 
 	public static  int MODE=Context.MODE_WORLD_READABLE|Context.MODE_WORLD_WRITEABLE;
 
-	public  SPUtils(String sharename,int sharemode){
+	public  SPUtils( Context con, String sharename,int sharemode){
 
+		context=con;
+		
 		FILE_NAME=sharename;
 
 		MODE=sharemode;
 
 	}
-	
-	public  SPUtils(String sharename){
 
+	public  SPUtils( Context con, String sharename){
+
+		context=con;
+		
 		FILE_NAME=sharename;
 
 		MODE=Context.MODE_WORLD_READABLE|Context.MODE_WORLD_WRITEABLE;
 
+	}
+	
+	public  SPUtils( Context con,int sharemode){
+
+		context=con;
+
+		FILE_NAME="ShareData";
+
+		MODE=sharemode;
+
+	}
+	
+	public float GetFloat( String key, float value){
+
+		return (Float) get(key,value);
+
+	}
+
+	public boolean GetBoolean( String key, boolean value){
+
+		return (Boolean) get(key,value);
+
+	}
+
+	public long GetLong( String key, long value){
+
+		return (Long) get(key,value);
+
+	}
+
+	public int GetInt( String key, int value){
+
+		 return (Integer) get(key,value);
+
+	}
+
+	public String GetString(String key, String value){
+
+		 return (String) get(key,value);
+
+	}
+	
+	public void PutFloat( String key, float value){
+
+		put(key,value);
+
+	}
+	
+	public void PutBoolean( String key, boolean value){
+
+		put(key,value);
+
+	}
+	
+	public void PutLong(String key, long value){
+
+		put(key,value);
+
+	}
+	
+	public void PutInt( String key, int value){
+
+		put(key,value);
+
+	}
+	
+	public void PutString( String key, String value){
+		
+		put(key,value);
+		
 	}
 
 	/**
@@ -48,8 +128,10 @@ public class SPUtils
 	 * @param key
 	 * @param object
 	 */
-	public static void put(Context context, String key, Object object)
+	public static void put( String key, Object object)
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 															MODE);
@@ -86,8 +168,10 @@ public class SPUtils
 	 * @param defaultObject
 	 * @return
 	 */
-	public static Object get(Context context, String key, Object defaultObject)
+	public static Object get(String key, Object defaultObject)
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 														    MODE);
@@ -118,8 +202,10 @@ public class SPUtils
 	 * @param context
 	 * @param key
 	 */
-	public static void remove(Context context, String key)
+	public static void remove(String key)
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 															MODE);
@@ -133,8 +219,10 @@ public class SPUtils
 	 * 
 	 * @param context
 	 */
-	public static void clear(Context context)
+	public static void clear()
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 															MODE);
@@ -150,8 +238,10 @@ public class SPUtils
 	 * @param key
 	 * @return
 	 */
-	public static boolean contains(Context context, String key)
+	public static boolean contains( String key)
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 															MODE);
@@ -164,8 +254,10 @@ public class SPUtils
 	 * @param context
 	 * @return
 	 */
-	public static Map<String, ?> getAll(Context context)
+	public static Map<String, ?> getAll()
 	{
+		
+		if(null==context)throw new NullPointerException("未知上下文！");
 
 		SharedPreferences sp = context.getSharedPreferences(FILE_NAME,
 															MODE);

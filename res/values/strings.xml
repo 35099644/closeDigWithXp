@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="disabled_alert">禁用对话框</string>
+    <string name="disabled_exit">禁止退出</string>
+    <string name="describe">强制取消一些不能取消的对话框.</string>
+    <string name="app_name">对话框取消</string>
+    <string name="app_loading">正在读取中，请稍等</string>
+    <string name="app_searchhint">应用名或包名</string>
+    <string name="menu_settings">设置</string>
+    <string name="global_settings">全局设置</string>
+    <string name="moduleswitch">模块开关</string>
+    <string name="moduleswitch_summery">启用/禁用模块</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_about">关于</string>
+	<string name="about_author">作者 S先生.</string>
+	<string name="mqqurl">mqqapi://card/show_pslcard?src_type=internal&amp;version=1&amp;uin=2664487933&amp;card_type=person&amp;source=external</string>
+    <string name="module_function">模块功能</string>
+    <string name="module_function_summary">本模块可以帮助您强制取消一些不能取消的对话框。使用前确保安装了 Xposed 框架。如果模块不能正常使用，可以尝试重新在 Xposed 安装器中激活模块，并清除应用数据。</string>
+    <string name="about_module">关于模块</string>
+    <string name="about_module_summary">模块为兴趣之作，请自行承担风险。如有不爽，家无水表，不收快递，请勿跨省，谢谢合作!</string>
+    <string name="suggestion">建议或反馈</string>
+    <string name="suggestion_summary">有任何想法可以酷安@我!</string>
+    <string name="refered_module">参考模块</string>
+  	<string name="refered_module4">liubaoyua的 CustomText</string>
+    <string name="refered_module4_summary">感谢作者 liubaoyua 和他的开源模块 CustomText，点击查看 Github 链接,他这软件界面写的很好,而且体积小,很符合我的风格.</string>
+    <string name="menu_global_replacement">全局设置</string>
+	<string name="menu_global_replacement_saved">保存成功，重启后生效</string>  
+    <string name="menu_exit">退出</string>
+	<string name="alipay">要想感谢作者的话,可以给作者买包烟！</string>
+	<string name="market">也可以给我的应用评5星支持！</string>
+	<string name="_52pj">也可以给我的应用评CB！</string>
+	<string name="alert_descrip">描述：\n1.禁用对话框是指让该应用的所有对话框都不显示（非百分百成功）\n2.禁止退出就是防止取消对话框后被强制退出（非百分百成功）</string>
+	<string name="main_about">\n\n关于:\n\n作者: S先生.\n\nQQ: 2664487933.\n\n微信号: Larson-ainixiang.\n\n以上信息可以直接长按复制！</string>
+	<string name="weixin">没有支付宝也可以微信捐赠！</string>
+</resources>

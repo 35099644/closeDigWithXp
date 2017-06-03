@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen 
+        android:key="author"
+        android:title="对话框取消 1.5" 
+        android:summary="@string/about_author">
+    </PreferenceScreen>
+    <PreferenceScreen 
+        android:title="@string/module_function" 
+        android:summary="@string/module_function_summary">
+    </PreferenceScreen>
+    <PreferenceScreen 
+        android:title="@string/about_module" 
+        android:summary="@string/about_module_summary">
+    </PreferenceScreen>
+    <PreferenceScreen 
+        android:title="@string/suggestion" 
+        android:summary="@string/suggestion_summary">
+    </PreferenceScreen>
+    <!--<Preference 
+		android:title="Xposed 框架吧"
+		android:summary="@string/XposedFrameworkBar">
+            <intent android:action="android.intent.action.VIEW" 
+                		android:data="http://tieba.baidu.com/f?kw=xposed%E6%A1%86%E6%9E%B6" />
+    </Preference>-->
+	<PreferenceScreen 
+	    android:key="alipay"
+        android:title="捐赠(支付宝)" 
+        android:summary="@string/alipay">
+    </PreferenceScreen>
+    <PreferenceScreen 
+	    android:key="weixin"
+        android:title="捐赠(微信)" 
+        android:summary="@string/weixin">
+    </PreferenceScreen>
+<PreferenceScreen 
+        android:key="kuan"
+        android:title="评分(酷安)" 
+        android:summary="@string/market">
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/refered_module">
+        
+		<Preference
+		    android:key="github"
+		     android:title="@string/refered_module4" android:summary="@string/refered_module4_summary">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

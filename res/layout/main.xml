@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <Switch
+            android:id="@+id/switch_module"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启模块" />
+
+        <Switch
+            android:id="@+id/switch_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="隐藏图标" />
+
+        <Switch
+            android:id="@+id/switch_mode_ex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开启增强模式" />
+
+        <TextView
+            android:id="@+id/textv_main_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:text="@string/main_about" />
+
+        <include  
+            android:id="@+id/layout_setting" 
+            layout="@layout/main_setting" />
+
+</LinearLayout>
